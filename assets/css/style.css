@@ -66,3 +66,39 @@ footer div {
 footer a {
     color: #024e76
 }
+
+section {
+    padding: 60px;
+}
+/* hero style start */
+.hero {
+    background-image: url("C:/Users/rnham/OneDrive/Desktop/UCD BOOTCAMP/Projects/Run-Buddy/assets/images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*hero style end*/
+/*hero form style start*/
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: 3px #024e76 solid;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
